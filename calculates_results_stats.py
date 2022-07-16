@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # */AIPND-revision/intropyproject-classify-pet-images/calculates_results_stats.py
 #                                                                             
-# PROGRAMMER: Eric LeFort
+# PROGRAMMER: E. LeFort
 # DATE CREATED: 7/14/2022                                 
 # REVISED DATE: 
 # PURPOSE: Create a function calculates_results_stats that calculates the 
