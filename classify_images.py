@@ -133,5 +133,5 @@ def classify_images(images_dir, results_dic, model):
         else:
             match = 0
         
-        #use extend method to add 1 or 0 to list. could not use as ectend uses 1 input. 
+        #use extend method to add 1 or 0 to list. Note Extend Method requires a single input. 
         results_dic[key].extend([model_label, match])
