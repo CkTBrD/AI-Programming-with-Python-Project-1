@@ -86,7 +86,7 @@ def classify_images(images_dir, results_dic, model):
         #print("Model label unchanged: " + str(model_label))
         
         #The split() method splits a string into a list
-        model_label = model_label.split(",")
+        #model_label = model_label.split(",")
         #print("Model Changed:" + str(model_label))
         
         # TODO: 3b. BELOW REPLACE pass with CODE to process the model_label to 
@@ -98,13 +98,15 @@ def classify_images(images_dir, results_dic, model):
         # Processes the results so they can be compared with pet image labels
         # set labels to lowercase (lower) and stripping off whitespace(strip)
     
-        for i in range(len(model_label)):
-            
+        #for i in range(len(model_label)):
             #model_label = model_label[i].lower().strip()
-            model_label[i] = model_label[i].lower()
-            model_label[i] = model_label[i].strip()
+            #model_label[i] = model_label[i].lower()
+            #model_label[i] = model_label[i].strip()
+            
+        model_label = model_label.lower()
+        model_label = model_label.strip()
         
-        model_label = ",".join(model_label)
+        #model_label = ",".join(model_label)
         
         # TODO: 3c. REPLACE pass BELOW with CODE that uses the extend list function
         #           to add the classifier label (model_label) and the value of
