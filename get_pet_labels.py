@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # */AIPND-revision/intropyproject-classify-pet-images/get_pet_labels.py
 #                                                                             
-# PROGRAMMER: Eric LeFort
+# PROGRAMMER: E. LeFort
 # DATE CREATED: 07/04/2022                                 
 # REVISED DATE: 07/06/2022
 # PURPOSE: Create the function get_pet_labels that creates the pet labels from 
