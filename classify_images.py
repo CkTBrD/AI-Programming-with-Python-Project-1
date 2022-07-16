@@ -120,8 +120,6 @@ def classify_images(images_dir, results_dic, model):
         
         if truth in model_label:
             match = 1
-            #results_dic[key].append(model_label)
-            #results_dic[key].append(1)
             
             
             # TODO: 3d. REPLACE pass BELOW with CODE that uses the extend list function
@@ -134,8 +132,6 @@ def classify_images(images_dir, results_dic, model):
         
         else:
             match = 0
-            #results_dic[key].append(model_label)
-            #results_dic[key].append(0)
         
         #use extend method to add 1 or 0 to list. could not use as ectend uses 1 input. 
         results_dic[key].extend([model_label, match])
