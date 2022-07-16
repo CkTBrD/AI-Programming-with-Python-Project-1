@@ -3,7 +3,7 @@
 # */AIPND-revision/intropyproject-classify-pet-images/check_images.py
 #
 # TODO 0: Add your information below for Programmer & Date Created.                                                                             
-# PROGRAMMER: Eric LeFort
+# PROGRAMMER: E. LeFort
 # DATE CREATED: 7/2/2022                                
 # REVISED DATE: 7/16/2022
 # PURPOSE: Classifies pet images using a pretrained CNN model, compares these
