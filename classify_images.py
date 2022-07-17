@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # */AIPND-revision/intropyproject-classify-pet-images/classify_images.py
 #                                                                             
-# PROGRAMMER: E. LeFort
+# PROGRAMMER: Eric LeFort
 # DATE CREATED: 07/05/2022                                
 # REVISED DATE: 07/08/2022
 # PURPOSE: Create a function classify_images that uses the classifier function 
@@ -102,7 +102,7 @@ def classify_images(images_dir, results_dic, model):
             #model_label = model_label[i].lower().strip()
             #model_label[i] = model_label[i].lower()
             #model_label[i] = model_label[i].strip()
-            
+        
         model_label = model_label.lower()
         model_label = model_label.strip()
         
@@ -122,6 +122,8 @@ def classify_images(images_dir, results_dic, model):
         
         if truth in model_label:
             match = 1
+            #results_dic[key].append(model_label)
+            #results_dic[key].append(1)
             
             
             # TODO: 3d. REPLACE pass BELOW with CODE that uses the extend list function
@@ -134,6 +136,10 @@ def classify_images(images_dir, results_dic, model):
         
         else:
             match = 0
+            #results_dic[key].append(model_label)
+            #results_dic[key].append(0)
         
-        #use extend method to add 1 or 0 to list. Note Extend Method requires a single input. 
+        #use extend method to add 1 or 0 to list. could not use as ectend uses 1 input. 
         results_dic[key].extend([model_label, match])
+            
+    
