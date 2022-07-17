@@ -1,0 +1,95 @@
+
+ ** Start time: 1658014671.8004334 
+
+Command Line Arguments:
+     dir = uploaded_images/ 
+    arch = alexnet 
+ dogfile = dognames.txt
+porsche_01.jpg
+Monkey_01.jpg
+** Warning: Duplicate files exist in directory: porsche_01.jpg
+** Warning: Duplicate files exist in directory: Monkey_01.jpg
+** Warning: Duplicate files exist in directory: Dog_02.jpg
+** Warning: Duplicate files exist in directory: Dog_01.jpg
+Dog_02.jpg
+** Warning: Duplicate files exist in directory: porsche_01.jpg
+** Warning: Duplicate files exist in directory: Monkey_01.jpg
+** Warning: Duplicate files exist in directory: Dog_02.jpg
+** Warning: Duplicate files exist in directory: Dog_01.jpg
+Dog_01.jpg
+** Warning: Duplicate files exist in directory: porsche_01.jpg
+** Warning: Duplicate files exist in directory: Monkey_01.jpg
+** Warning: Duplicate files exist in directory: Dog_02.jpg
+** Warning: Duplicate files exist in directory: Dog_01.jpg
+
+Pet Image Label Dictionary has 4 key-value pairs.
+Below are 4 of them:
+ 1 key:                 porsche_01.jpg  label:                    porsche
+ 2 key:                  Monkey_01.jpg  label:                     monkey
+ 3 key:                     Dog_02.jpg  label:                        dog
+ 4 key:                     Dog_01.jpg  label:                        dog
+
+     MATCH:
+
+                    Dog_02.jpg: 
+Real:                        dog   Classifier: tibetan terrier, chrysanthemum dog
+
+                    Dog_01.jpg: 
+Real:                        dog   Classifier: tibetan terrier, chrysanthemum dog
+
+ NOT A MATCH:
+
+                porsche_01.jpg: 
+Real:                    porsche   Classifier:          sports car, sport car
+
+                 Monkey_01.jpg: 
+Real:                     monkey   Classifier: capuchin, ringtail, cebus capucinus
+
+# Total Images 4 # Matches: 2 # NOT Matches: 2
+
+     MATCH:
+
+                    Dog_02.jpg: 
+Real:                        dog   Classifier: tibetan terrier, chrysanthemum dog  
+PetLabelDog: 1  ClassLabelDog: 1
+
+                    Dog_01.jpg: 
+Real:                        dog   Classifier: tibetan terrier, chrysanthemum dog  
+PetLabelDog: 1  ClassLabelDog: 1
+
+ NOT A MATCH:
+
+                porsche_01.jpg: 
+Real:                    porsche   Classifier:          sports car, sport car  
+PetLabelDog: 0  ClassLabelDog: 0
+
+                 Monkey_01.jpg: 
+Real:                     monkey   Classifier: capuchin, ringtail, cebus capucinus  
+PetLabelDog: 0  ClassLabelDog: 0
+
+# Total Images 4 # Matches: 2 # NOT Matches: 2
+{'porsche_01.jpg': ['porsche', 'sports car, sport car', 0, 0, 0], 'Monkey_01.jpg': ['monkey', 'capuchin, ringtail, cebus capucinus', 0, 0, 0], 'Dog_02.jpg': ['dog', 'tibetan terrier, chrysanthemum dog', 1, 1, 1], 'Dog_01.jpg': ['dog', 'tibetan terrier, chrysanthemum dog', 1, 1, 1]}
+
+ ** Statistics from calculates_results_stats() function:
+N Images:  4  N Dog Images:  2  N NotDog Images:  2 
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed: 100.0
+
+ ** Check Statistics - calculated from this function as a check:
+N Images:  4  N Dog Images:  2  N NotDog Images:  2 
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed: 100.0
+
+
+*** Results Summary for CNN Model Architecture ALEXNET ***
+N Images            :   4
+N Dog Images        :   2
+N Not-Dog Images    :   2
+ 
+Key: pct_match Value:50.0
+Key: pct_correct_dogs Value:100.0
+Key: pct_correct_breed Value:100.0
+Key: pct_correct_notdogs Value:100.0
+
+ ** End time: 1658014672.1789515 
+
+
+** Total Elapsed Runtime: 0:0:0
